@@ -30,7 +30,7 @@ app.include_router(vote.router)
 @app.get("/") #app comes from our app name above
 def root():
 
-    return {"message": "Welcome to my 1st FastAPI!"} 
+    return {"message": "Welcome to my instance of FastAPI!"} 
 
 
 
